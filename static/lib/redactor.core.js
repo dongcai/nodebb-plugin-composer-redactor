@@ -140,7 +140,6 @@ define('redactor', [
                     'ol': '<i class="fa fa-list-ol"></i>',
                     'ul': '<i class="fa fa-list-ul"></i>',
                     'link': '<i class="fa fa-link"></i>',
-                    'horizontalrule': '<i class="fa fa-minus"></i>',
                     'image': '<i class="fa fa-picture-o"></i>',
                     'indent': '<i class="fa fa-indent"></i>',
                     'outdent': '<i class="fa fa-outdent"></i>',
@@ -167,7 +166,7 @@ define('redactor', [
     };
 
     // Redactor Options
-    $.Redactor.opts.buttons.splice($.Redactor.opts.buttons.indexOf('lists'), 1, 'horizontalrule', 'ol', 'ul', 'indent', 'outdent');
+    $.Redactor.opts.buttons.splice($.Redactor.opts.buttons.indexOf('lists'), 1, 'ol', 'ul', 'indent', 'outdent');
     $.Redactor.opts.plugins = ['video', 'table', 'topic_thumb', 'underline', 'emoticons', 'iconic'];
     $.Redactor.opts.focusEnd = true;
     $.Redactor.opts.imageUpload = config.relative_path + '/api/post/upload';

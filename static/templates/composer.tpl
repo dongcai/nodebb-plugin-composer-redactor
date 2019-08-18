@@ -11,8 +11,8 @@
 				<span class="category-name"></span> <i class="fa fa-sort"></i>
 			</div>
 			<!-- ENDIF isTopic -->
-			<div>
-				<button class="btn btn-sm btn-primary composer-submit" data-action="post" tabindex="-1"><i class="fa fa-chevron-right"></i></button>
+			<div style="margin-left: auto">
+				<button class="btn btn-sm btn-primary composer-submit" data-action="post" tabindex="-1"><i class="fa fa-chevron-right"></i> [[topic:composer.submit]]</button>
 			</div>
 		</nav>
 		<div class="title-container row">
